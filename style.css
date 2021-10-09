@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+/* .box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation: onggaBor 3s infinite linear;
+    background-image: url('https://images6.alphacoders.com/571/571262.jpg');
+    background-position: center;
+    background-size: cover;
+} */
+
+.ota{
+    width: 400px;
+    height: 400px;
+    /* background-color: red; */
+    animation: aylan 3s linear infinite;
+}
+
+.bola{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: yellow;
+    animation: bola 4s linear infinite;
+}
+
+.nevara{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background-color: green;
+    animation: nevara 4s linear infinite;
+}
+
+@keyframes aylan{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes bola{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes nevara{
+    from{
+        transform: rotateY(0deg);
+
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+
+/* 
+@keyframes onggaBor {
+    from{
+        transform: rotateY(0deg);
+        border-radius: 10%;
+    }
+    to{
+        border-radius: 50%;
+        transform: rotateY(180deg);
+    }
+
+} */
+/* 
+@keyframes onggaBor{
+
+    0%{
+        transform: translateY(0px) translateX(0px) ;
+     }
+    25%{
+        transform: translateY(0) translateX(500px);
+    }
+    50%{
+        transform: translateY(500px) translateX(500px);
+    }
+    75%
+    {
+        transform: translateX(0px) translateY(500px);
+    }
+} */
+
+
